@@ -13,7 +13,7 @@
         "rendering",
         "cache",
         "twig",
-        "jinja",
+        "jinja"
     ],
     "type": "library",
     "license": "MIT",
@@ -27,11 +27,11 @@
         }
     ],
     "require" : {
-        "php" : ">=5.4",
+        "php" : ">=5.4"
     },
     "autoload": {
         "psr-4": {
             "Iodev\\": "src/Iodev/"
         }
-    },
+    }
 }
