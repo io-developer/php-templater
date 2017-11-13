@@ -1,0 +1,37 @@
+{
+    "name": "io-developer/php-templater",
+    "description": "Native PHP templater lets using of nested blocks (like twig or jinja) and partical rendering via cache",
+    "keywords": [
+        "php",
+        "template",
+        "templates",
+        "templater",
+        "block",
+        "native",
+        "pure",
+        "render",
+        "rendering",
+        "cache",
+        "twig",
+        "jinja",
+    ],
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://github.com/io-developer/php-templater",
+    "authors": [
+        {
+            "name": "Sergey Sedyshev",
+            "email": "i.o.developer@gmail.com",
+            "homepage": "https://github.com/io-developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "Iodev\\": "src/Iodev/"
+        }
+    },
+}
